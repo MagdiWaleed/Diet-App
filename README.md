@@ -1,4 +1,4 @@
-# diet_app2
+# diet_app
 
 A new Flutter project.
 
