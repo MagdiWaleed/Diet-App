@@ -38,6 +38,7 @@ class MyMalesCurrentDietController extends GetxController {
   }
 
   void changeToComponent() {
+    print("hi");
     pageController.nextPage(
         duration: Duration(milliseconds: 5), curve: Curves.linear);
     update();

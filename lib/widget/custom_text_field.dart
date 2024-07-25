@@ -23,12 +23,16 @@ class CustomTextField extends StatelessWidget {
         ),
       ),
       child: TextField(
+         
         controller: controller,
         style: TextStyle(
             color: Colors.white,
             fontFamily: "Cairo",
-            fontWeight: FontWeight.bold),
+            fontSize: 11),
+        cursorHeight: 10,
+        cursorColor: Colors.white,
         decoration: InputDecoration(
+          contentPadding: EdgeInsets.zero,
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(8),
             borderSide: BorderSide(color: Colors.black, width: 0.5),

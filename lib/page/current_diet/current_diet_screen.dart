@@ -502,7 +502,7 @@ class CurrentDietScreen extends StatelessWidget {
                               CustomText(
                                 title: appData
                                     .getUserModel()
-                                    .dailyActive
+                                    .caloriesGoal!
                                     .toPrecision(2)
                                     .toString(),
                                 size: 15,
